@@ -1,9 +1,13 @@
+
+import TicketList from "./Ticketlist";
+
 const Tickets = () => {
     return ( 
-        <div>
+        <main>
             <h2>Tickets</h2>
-            <p>This is the tickets page bitch</p>
-        </div>
+            <p>Currently opened tickets</p>
+            <TicketList />
+        </main>
      );
 }
  
